@@ -13,7 +13,6 @@ public class ChatInfo implements java.io.Serializable
 	private ArrayList<Integer> clientList;
 	private int who;
 	
-
 	// Used when just sending messages
 	public ChatInfo(String message, int clientNum)
 	{

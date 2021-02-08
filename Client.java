@@ -8,15 +8,12 @@ import java.util.function.Consumer;
 
 
 public class Client extends Thread{
-
 	
 	Socket socketClient;
-	
 	ObjectOutputStream out;
 	ObjectInputStream in;
 	
 	private Consumer<Serializable> callback;
-	
 	Client(Consumer<Serializable> call){
 	
 		callback = call;

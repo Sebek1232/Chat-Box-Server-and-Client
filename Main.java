@@ -23,8 +23,8 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import javafx.stage.WindowEvent;
 
-public class GuiServer extends Application{
-
+public class Main extends Application
+{
 	
 	TextField messageField;
 	Button serverChoice,clientChoice, refresh, sendAll, sendTo, addGroup, sendGroup, resetGroup;
